@@ -1,0 +1,21 @@
+
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #f68d28;
+    /* --md-accent-fg-color: #f0e362; */
+}
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color:  #25aae1;
+    /* --md-accent-fg-color:   #e37dce; */
+}
+
+/*
+Thumby colors: 
+blue - #00aeef
+orange - #ff9016
+pink - #e37dce
+yellow - #f0e362
+blacks:
+darkest: #16171d
+medium: #1c1d26
+Light background text is on: #2e303e */
