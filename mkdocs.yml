@@ -1,7 +1,7 @@
 site_name: Thumby Color
 
 nav:
-  - Home: index.md
+  - Home: home.md
   - Getting Started With Thonny: pages/getting-started-with-thonny/getting-started-with-thonny.md
   - First Game: pages/first-game/first-game.md
   - Documentation and Examples: pages/documentation-and-examples/documentation-and-examples.md
