@@ -45,7 +45,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.top # 'Back to top' button when scrolling up a page
   name: material
-  custom_dir: docs/overrides/
+  custom_dir: docs/color
   # icon repo for 'GitHub' repo - but it's actually the Thumby Code Editor
   icon:
     repo: octicons/link-external-16
