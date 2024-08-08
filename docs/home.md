@@ -98,11 +98,11 @@ section {
 
 ## **Thumby Color Diagram**
 <center>
-![](assets/thumby_color_drawing.svg)
+![](color/thumby_color_drawing.svg)
 </center>
 
 
 ## **Thumby Color Dev Board Diagram**
 <center>
-![](assets/thumby_color_dev_drawing.svg)
+![](color/thumby_color_dev_drawing.svg)
 </center>
