@@ -59,7 +59,7 @@ section {
 
 <section>
 
-<center><button class="buy-btn"><a href="https://tinycircuits.com/thumby"  style="color: white" target="_blank" alt="TinyCircuits Thumby product page on tinycircuits website"><b>Order Now</b></a></button></center>
+<center><button class="buy-btn"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.kickstarter.com%2Fprojects%2Fkenburns%2Fthumby-color&sa=D&sntz=1&usg=AOvVaw26u2EY9JzmYGGObS01Pno1" style="color: white" target="_blank" alt="TinyCircuits Thumby product page on tinycircuits website"><b>Order Now</b></a></button></center>
 <center><button class="disc-btn"><a href="https://discord.gg/vzf3wQXVvm"  style="color: white" target="_blank" alt="TinyCircuits Discord join link"><b>Join us on Discord</b></a></button></center>
 
 </section>
