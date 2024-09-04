@@ -1,14 +1,20 @@
 ## Latest Firmware
 
-<a href="https://color.thumby.us/firmware_2aa8e3d.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/2aa8e3dd9eb6ded5479c19bf0fb504f0ecfba3b5" target="_blank" alt="Firmware">**files**</a> (August 27, 2024 @ 2:10PM EDT [commit 2aa8e3d])
+<a href="https://color.thumby.us/firmware_af6804d.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/af6804d7cbaf61908593fe342213b04218034e13" target="_blank" alt="Firmware">**files**</a> (September 4, 2024 @ 11:15AM EDT [commit af6804d])
+
+* Moved to newer pico-sdk and MicroPython (using in progress PR for RP2350 support)
+* Added `engine_link` module
+
+### Old Firmware
+
+<a href="https://color.thumby.us/firmware_2aa8e3d.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/2aa8e3dd9eb6ded5479c19bf0fb504f0ecfba3b5" target="_blank" alt="Firmware">**files**</a> (August 27, 2024 @ 2:10PM EDT [commit 2aa8e3d])
 
 * Fixed "__init_save_dir was never called" error
 * Added some helpful `engine` API functions to help support legacy Thumby Games
 * Switched `engine.reset()` to do a hard reset by default instead of soft (pass `True` to perform a soft reset)
 * Fixed engine not returning correct exit code on hard reset for `micropython_loop` script to restart
 
-
-### Old Firmware
+---
 
 <a href="https://color.thumby.us/firmware_4d64d5b.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/archive/4d64d5b3fe43fa09e07447da160eedb603ae3c8c.zip" target="_blank" alt="Firmware">**files**</a> (August 26, 2024 @ 2:22PM EDT [commit 4d64d5b])
 
