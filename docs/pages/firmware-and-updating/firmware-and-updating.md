@@ -1,11 +1,18 @@
 ## Latest Firmware
 
-<a href="https://color.thumby.us/firmware_0aa571a.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0aa571a516e9034d1efdafab6b9069882ac199f3" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 11:02AM EDT [commit 0aa571a])
+<a href="https://color.thumby.us/firmware_3c2df40.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/3c2df40bc66eb270cbe27f15c0f575aecf390aba" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 12:57PM EDT [commit 3c2df40])
 
-* Added `engine_link.is_host()` function
+* Fix default font baked into firmware after bitmap update
+* Add `engine_link.is_started()`
 
 
 ### Old Firmware
+
+<a href="https://color.thumby.us/firmware_0aa571a.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0aa571a516e9034d1efdafab6b9069882ac199f3" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 11:02AM EDT [commit 0aa571a])
+
+* Added `engine_link.is_host()` function
+
+---
 
 <a href="https://color.thumby.us/firmware_62488b7.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/62488b74f1fa745afcd1826e4182bd63dd82b956" target="_blank" alt="Firmware">**files**</a> (September 10, 2024 @ 12:13PM EDT [commit 62488b7])
 
