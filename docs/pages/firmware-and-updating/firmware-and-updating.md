@@ -1,11 +1,17 @@
 ## Latest Firmware
 
-<a href="https://color.thumby.us/firmware_62488b7.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/62488b74f1fa745afcd1826e4182bd63dd82b956" target="_blank" alt="Firmware">**files**</a> (September 10, 2024 @ 12:13PM EDT [commit 62488b7])
+<a href="https://color.thumby.us/firmware_0aa571a.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0aa571a516e9034d1efdafab6b9069882ac199f3" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 11:02AM EDT [commit 0aa571a])
 
-* Added support for bitmaps types 16-bits or less along with support for 16-bit ARGB formats like 1555 or 4444 for per-pixel transparency
+* Added `engine_link.is_host()` function
 
 
 ### Old Firmware
+
+<a href="https://color.thumby.us/firmware_62488b7.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/62488b74f1fa745afcd1826e4182bd63dd82b956" target="_blank" alt="Firmware">**files**</a> (September 10, 2024 @ 12:13PM EDT [commit 62488b7])
+
+* Added support for bitmaps types 16-bits or less along with support for 16-bit ARGB formats like 1555 or 4444 for per-pixel transparency
+
+---
 
 <a href="https://color.thumby.us/firmware_af6804d.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/af6804d7cbaf61908593fe342213b04218034e13" target="_blank" alt="Firmware">**files**</a> (September 4, 2024 @ 11:15AM EDT [commit af6804d])
 
