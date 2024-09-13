@@ -19,6 +19,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - tables
+  - pymdownx.details
 
 # all the colors of light/dark mode
 theme:
