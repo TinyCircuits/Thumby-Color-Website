@@ -1,14 +1,20 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/firmware_fdc6d58.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/fdc6d581f5e1799bfbf8289654b3bdec6bf30566" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 2:29PM EDT [commit fdc6d58])
+<a href="https://color.thumby.us/firmware/firmware_b8b013b.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/b8b013b1f8145663a0e25fc43320437b374576c6" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 3:45PM EDT [commit b8b013b])
 
-* Use a different function for running USB host mode task when `engine_link` module functions `.available()`, `.read()`, `.read_into()`, `.send()`, and `.connected()` are called.
+* Adjust `engine_link` connection times to make them more reliable
 
 
 ### Old Firmware
 
 ??? Versions
+
+    <a href="https://color.thumby.us/firmware/firmware_fdc6d58.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/fdc6d581f5e1799bfbf8289654b3bdec6bf30566" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 2:29PM EDT [commit fdc6d58])
+
+    * Use a different function for running USB host mode task when `engine_link` module functions `.available()`, `.read()`, `.read_into()`, `.send()`, and `.connected()` are called.
+
+    ---
 
     <a href="https://color.thumby.us/firmware/firmware_34e6df0.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/34e6df0a7f109869c060904966930c448992f455" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 2:01PM EDT [commit 34e6df0])
 
