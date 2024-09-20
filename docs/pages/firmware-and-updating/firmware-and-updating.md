@@ -1,17 +1,23 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/firmware_ac8a4c7.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/ac8a4c7ca94835c3ff5eee78f0ba81a864f9d1a6" target="_blank" alt="Firmware">**files**</a> (September 18, 2024 @ 4:08PM EDT [commit ac8a4c7])
+<a href="https://color.thumby.us/firmware/firmware_9e01471.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/9e0147139790b176f5966f70ab5474a608469a97" target="_blank" alt="Firmware">**files**</a> (September 20, 2024 @ 1:20PM EDT [commit 9e01471])
 
-* Update `engine_link` docs for TX buffer sending size and on what happens if too much data is sent or received
-* Return actual number of bytes sent when using `engine_link.send()`
-* Update USB Host RX and TX buffer sizes to match the USB Device side
+* Fix skewing issue for 1-bit and 4-bit bitmaps with odd dimensions
 
 ### Old Firmware
 
 ??? Versions
 
-    <a href="https://color.thumby.us/firmware/firmware_b8b013b.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/b8b013b1f8145663a0e25fc43320437b374576c6" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 3:45PM EDT [commit b8b013b])
+    <a href="https://color.thumby.us/firmware/firmware_ac8a4c7.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/ac8a4c7ca94835c3ff5eee78f0ba81a864f9d1a6" target="_blank" alt="Firmware">**files**</a> (September 18, 2024 @ 4:08PM EDT [commit ac8a4c7])
+
+    * Update `engine_link` docs for TX buffer sending size and on what happens if too much data is sent or received
+    * Return actual number of bytes sent when using `engine_link.send()`
+    * Update USB Host RX and TX buffer sizes to match the USB Device side
+
+    ---
+
+    <a href="https://color.thumby.us/firmware/firmware_b8b013b.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/b8b013b1f8145663a0e25fc43320437b374576c6" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 3:45PM EDT [commit b8b013b])
 
     * Adjust `engine_link` connection times to make them more reliable
 
