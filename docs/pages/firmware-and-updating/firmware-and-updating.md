@@ -1,13 +1,23 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/firmware_9e01471.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/9e0147139790b176f5966f70ab5474a608469a97" target="_blank" alt="Firmware">**files**</a> (September 20, 2024 @ 1:20PM EDT [commit 9e01471])
+<a href="https://color.thumby.us/firmware/firmware_a5baa37.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/a5baa37a617091688d3fb5d343e383ec5dba37f3" target="_blank" alt="Firmware">**files**</a> (September 26, 2024 @ 4:48PM EDT [commit a5baa37])
 
-* Fix skewing issue for 1-bit and 4-bit bitmaps with odd dimensions
+* Give all 2D nodes the ability to inherit `position`, `opacity`, `scale`, and `rotation` from their parents
+* Add `.inherit_position`, `.inherit_opacity`, `inherit_scale`, and `.inherit_rotation` to all 2D nodes to control if a node will inherit those attributes
+* Add `.get_parent()` function to all nodes
+
+NOTE: Launcher files were updated, make sure to update your system files!
 
 ### Old Firmware
 
 ??? Versions
+
+    <a href="https://color.thumby.us/firmware/firmware_9e01471.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/9e0147139790b176f5966f70ab5474a608469a97" target="_blank" alt="Firmware">**files**</a> (September 20, 2024 @ 1:20PM EDT [commit 9e01471])
+
+    * Fix skewing issue for 1-bit and 4-bit bitmaps with odd dimensions
+
+    ---
 
     <a href="https://color.thumby.us/firmware/firmware_ac8a4c7.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/ac8a4c7ca94835c3ff5eee78f0ba81a864f9d1a6" target="_blank" alt="Firmware">**files**</a> (September 18, 2024 @ 4:08PM EDT [commit ac8a4c7])
 
