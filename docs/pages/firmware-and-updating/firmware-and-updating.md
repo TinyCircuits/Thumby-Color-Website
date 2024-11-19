@@ -1,13 +1,25 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/firmware_ebd3632.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/ebd363223c02b9df89ae6fbd7708d873a6ec1297" target="_blank" alt="Firmware">**files**</a> (October 22, 2024 @ 10:42AM EDT [commit ebd3632])
+<a href="https://color.thumby.us/firmware/firmware_7eb1f9f.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/7eb1f9f25248f202c9a2cb284b17998327b71da9" target="_blank" alt="Firmware">**files**</a> (November 19, 2024 @ 12:48PM EDT [commit 7eb1f9f])
 
-* Fixed not being able to use indexed bitmaps for fonts
+* Fix bitmaps with `BI_RGB` compression field being interpreted to contain RGB565 instead of RGB555 by default
+* Add rumble to RB and LB button presses in launcher
+* Play intro music/jingle on splash screen if not plugged into a computer
+* Expose `.amplitude` on `AudioChannel` that is automatically set to last sample amplitude (before gain mixing)
+* Expose `.sample_rate` and `.duration` on `WaveSoundResource`
+* Slow down RTC I2C communication speed from 400kHz to 10kHz due to frequent errors and add specific startup routine to clear communication to the RTC IC
+* Fixed default font not rendering correctly due to unset pixel stride
 
 ### Old Firmware
 
 ??? Versions
+
+    <a href="https://color.thumby.us/firmware/firmware_ebd3632.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/ebd363223c02b9df89ae6fbd7708d873a6ec1297" target="_blank" alt="Firmware">**files**</a> (October 22, 2024 @ 10:42AM EDT [commit ebd3632])
+
+* Fixed not being able to use indexed bitmaps for fonts
+
+    ---
 
     <a href="https://color.thumby.us/firmware/firmware_a5baa37.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/a5baa37a617091688d3fb5d343e383ec5dba37f3" target="_blank" alt="Firmware">**files**</a> (September 26, 2024 @ 4:48PM EDT [commit a5baa37])
 
