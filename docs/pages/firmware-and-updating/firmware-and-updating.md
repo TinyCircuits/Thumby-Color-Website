@@ -17,7 +17,7 @@
 
     <a href="https://color.thumby.us/firmware/firmware_ebd3632.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/ebd363223c02b9df89ae6fbd7708d873a6ec1297" target="_blank" alt="Firmware">**files**</a> (October 22, 2024 @ 10:42AM EDT [commit ebd3632])
 
-* Fixed not being able to use indexed bitmaps for fonts
+    * Fixed not being able to use indexed bitmaps for fonts
 
     ---
 
