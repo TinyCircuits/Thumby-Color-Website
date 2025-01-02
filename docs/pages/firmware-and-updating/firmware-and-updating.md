@@ -1,10 +1,11 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/firmware_0d07d0e.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0d07d0e2656e47b5acac993bc0a76082133532f4" target="_blank" alt="Firmware">**files**</a> (January 2, 2024 @ 12:42PM EDT [commit 0d07d0e])
+<a href="https://color.thumby.us/firmware/firmware_0d07d0e.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0d07d0e2656e47b5acac993bc0a76082133532f4" target="_blank" alt="Firmware">**files**</a> (January 2, 2024 @ 12:42PM EST [commit 0d07d0e])
 
 * Fixed newlines being sanitized in `Text2DNode.text`
 * Make front indicator RGB LED represent battery level by changing from green to red as the battery dies
+* Make front indicator RGB LED change to blue/cyan when charging
 * Change `engine_io.indicator(...)` function to allow overriding default battery indication with custom color
 * Remove launcher battery indictor
 
