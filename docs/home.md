@@ -78,7 +78,7 @@ section {
 ## **Tech Specifications**: Thumby Color and Thumby Color Dev Board
 
 * **Processor**: 150MHz ~ 300MHz Dual Core Raspberry Pi RP2350 Processor (with FPU)
-* **Memory**: 520KiB SRAM
+* **Memory**: 520kB on chip SRAM
 * **Storage**: 16MiB Flash (_partitioned as 1MiB firmware, 2MiB game scratch, and 13MiB filesystem_)
 * **Screen**: 0.85" 128x128px 16-bit Backlit Color TFT LCD Display
 * **Power**: Slide Switch, 110mAh Rechargeable LiPo Battery, ~2 Hours of Gameplay

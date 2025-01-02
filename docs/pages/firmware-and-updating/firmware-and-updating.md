@@ -1,17 +1,27 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/firmware_419f556.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/419f5564c72fa220030a6865325b82688c88cfb7" target="_blank" alt="Firmware">**files**</a> (December 16, 2024 @ 4:47PM EDT [commit 419f556])
+<a href="https://color.thumby.us/firmware/firmware_0d07d0e.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0d07d0e2656e47b5acac993bc0a76082133532f4" target="_blank" alt="Firmware">**files**</a> (January 2, 2024 @ 12:42PM EDT [commit 0d07d0e])
 
-* Add volume and brightness settings to launcher settings page and add generated settings.txt file
-* Add most of the credits to the launcher credits page
-* Fix default bitmap pixel data format for bitmaps with BI_RGB field (should have been 555, not 565)
-* Add some ability to render 3D `MeshNode`s
-* Fix blank `TextureResource` creation stalling forever because of incorrect types in a fill loop
+* Fixed newlines being sanitized in `Text2DNode.text`
+* Make front indicator RGB LED represent battery level by changing from green to red as the battery dies
+* Change `engine_io.indicator(...)` function to allow overriding default battery indication with custom color
+* Remove launcher battery indictor
+
 
 ### Old Firmware
 
 ??? Versions
+
+    <a href="https://color.thumby.us/firmware/firmware_419f556.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/419f5564c72fa220030a6865325b82688c88cfb7" target="_blank" alt="Firmware">**files**</a> (December 16, 2024 @ 4:47PM EDT [commit 419f556])
+
+    * Add volume and brightness settings to launcher settings page and add generated settings.txt file
+    * Add most of the credits to the launcher credits page
+    * Fix default bitmap pixel data format for bitmaps with BI_RGB field (should have been 555, not 565)
+    * Add some ability to render 3D `MeshNode`s
+    * Fix blank `TextureResource` creation stalling forever because of incorrect types in a fill loop
+
+    ---
 
     <a href="https://color.thumby.us/firmware/firmware_7eb1f9f.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/7eb1f9f25248f202c9a2cb284b17998327b71da9" target="_blank" alt="Firmware">**files**</a> (November 19, 2024 @ 12:48PM EDT [commit 7eb1f9f])
 
