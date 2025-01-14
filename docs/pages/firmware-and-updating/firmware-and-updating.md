@@ -1,18 +1,24 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/firmware_0d07d0e.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0d07d0e2656e47b5acac993bc0a76082133532f4" target="_blank" alt="Firmware">**files**</a> (January 2, 2025 @ 12:42PM EST [commit 0d07d0e])
+<a href="https://color.thumby.us/firmware/firmware_c34cf79.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/c34cf79ff644c1bdaf042fe1d20954ab2aee1b58" target="_blank" alt="Firmware">**files**</a> (January 14, 2025 @ 3:20PM EST [commit c34cf79])
 
-* Fixed newlines being sanitized in `Text2DNode.text`
-* Make front indicator RGB LED represent battery level by changing from green to red as the battery dies
-* Make front indicator RGB LED change to blue/cyan when charging
-* Change `engine_io.indicator(...)` function to allow overriding default battery indication with custom color
-* Remove launcher battery indictor
+* Fix `Line2DNode` drawing bug
 
 
 ### Old Firmware
 
 ??? Versions
+
+    <a href="https://color.thumby.us/firmware/firmware_0d07d0e.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0d07d0e2656e47b5acac993bc0a76082133532f4" target="_blank" alt="Firmware">**files**</a> (January 2, 2025 @ 12:42PM EST [commit 0d07d0e])
+
+    * Fixed newlines being sanitized in `Text2DNode.text`
+    * Make front indicator RGB LED represent battery level by changing from green to red as the battery dies
+    * Make front indicator RGB LED change to blue/cyan when charging
+    * Change `engine_io.indicator(...)` function to allow overriding default battery indication with custom color
+    * Remove launcher battery indictor
+
+    ---
 
     <a href="https://color.thumby.us/firmware/firmware_419f556.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/419f5564c72fa220030a6865325b82688c88cfb7" target="_blank" alt="Firmware">**files**</a> (December 16, 2024 @ 4:47PM EDT [commit 419f556])
 
