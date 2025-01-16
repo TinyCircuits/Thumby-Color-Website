@@ -1,14 +1,21 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/firmware_c34cf79.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/c34cf79ff644c1bdaf042fe1d20954ab2aee1b58" target="_blank" alt="Firmware">**files**</a> (January 14, 2025 @ 3:20PM EST [commit c34cf79])
+<a href="https://color.thumby.us/firmware/firmware_3fa3ce4.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/3fa3ce47aae2f8e12220af5a435c6faaa05e9c2c" target="_blank" alt="Firmware">**files**</a> (January 16, 2025 @ 2:32PM EST [commit 3fa3ce4])
 
-* Fix `Line2DNode` drawing bug
+* Show used and total storage on settings screen
+* Add low level drawing functions to the `engine_draw` module (`clear`, `pixel`, `line`, `rect`, `circle`, `text`, `blit`, and `update`)
 
 
 ### Old Firmware
 
 ??? Versions
+
+    <a href="https://color.thumby.us/firmware/firmware_c34cf79.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/c34cf79ff644c1bdaf042fe1d20954ab2aee1b58" target="_blank" alt="Firmware">**files**</a> (January 14, 2025 @ 3:20PM EST [commit c34cf79])
+
+* Fix `Line2DNode` drawing bug
+
+    ---
 
     <a href="https://color.thumby.us/firmware/firmware_0d07d0e.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0d07d0e2656e47b5acac993bc0a76082133532f4" target="_blank" alt="Firmware">**files**</a> (January 2, 2025 @ 12:42PM EST [commit 0d07d0e])
 

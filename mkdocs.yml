@@ -61,9 +61,9 @@ plugins:
 extra_css:
   - stylesheets/extra.css
 
-# Use the github repo feature to link to the Thumby Code Editor
-repo_url: https://code.thumby.us/
-repo_name: Thumby Code Editor
+# Use the github repo feature to link to the Thumby Color Code Editor
+repo_url: https://color.thumby.us/code/
+repo_name: Thumby Color Code Editor
 
 # social footer icons and links
 extra:
