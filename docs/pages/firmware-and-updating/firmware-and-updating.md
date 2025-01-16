@@ -13,7 +13,7 @@
 
     <a href="https://color.thumby.us/firmware/firmware_c34cf79.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/c34cf79ff644c1bdaf042fe1d20954ab2aee1b58" target="_blank" alt="Firmware">**files**</a> (January 14, 2025 @ 3:20PM EST [commit c34cf79])
 
-* Fix `Line2DNode` drawing bug
+    * Fix `Line2DNode` drawing bug
 
     ---
 
