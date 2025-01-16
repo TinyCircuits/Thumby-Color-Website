@@ -1,7 +1,7 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/firmware_3fa3ce4.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/3fa3ce47aae2f8e12220af5a435c6faaa05e9c2c" target="_blank" alt="Firmware">**files**</a> (January 16, 2025 @ 2:32PM EST [commit 3fa3ce4])
+<a href="https://color.thumby.us/firmware/firmware_7c786fa.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/7c786fa526bb63603c002f3585048c21c1ac28cf" target="_blank" alt="Firmware">**files**</a> (January 16, 2025 @ 2:52PM EST [commit 7c786fa])
 
 * Show used and total storage on settings screen
 * Add low level drawing functions to the `engine_draw` module (`clear`, `pixel`, `line`, `rect`, `circle`, `text`, `blit`, and `update`)
