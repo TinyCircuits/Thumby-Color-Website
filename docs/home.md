@@ -32,6 +32,15 @@ hide:
   border-radius: 8px;
 }
 
+.link-btn {
+  border: 2px solid black;
+  background-color:rgb(255, 115, 0);
+  border: none;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
 /* Different background on mouse-over */
 .buy-btn:hover {
   background-color: #ff9016;
@@ -57,10 +66,31 @@ section {
 
 <h1>Thumby Color, a Tiny Playable Color Keychain by <a href="https://tinycircuits.com/" target="_blank" alt="TinyCircuits main website page"><b>TinyCircuits</b></a></h1>
 
-<section>
+<section style="width:100%; display:flex; justify-content:center">
 
-<center><button class="buy-btn"><a href="https://www.google.com/url?q=https%3A%2F%2Fwww.kickstarter.com%2Fprojects%2Fkenburns%2Fthumby-color&sa=D&sntz=1&usg=AOvVaw26u2EY9JzmYGGObS01Pno1" style="color: white" target="_blank" alt="TinyCircuits Thumby product page on tinycircuits website"><b>Order Now</b></a></button></center>
-<center><button class="disc-btn"><a href="https://discord.gg/vzf3wQXVvm"  style="color: white" target="_blank" alt="TinyCircuits Discord join link"><b>Join us on Discord</b></a></button></center>
+    <button class="buy-btn">
+      <a href="https://www.google.com/url?q=https%3A%2F%2Fwww.kickstarter.com%2Fprojects%2Fkenburns%2Fthumby-color&sa=D&sntz=1&usg=AOvVaw26u2EY9JzmYGGObS01Pno1" style="color: white" target="_blank" alt="TinyCircuits Thumby product page on tinycircuits website">
+        <b>Order Now</b>
+      </a>
+    </button>
+
+    <button class="disc-btn">
+      <a href="https://discord.gg/vzf3wQXVvm"  style="color: white" target="_blank" alt="TinyCircuits Discord join link">
+        <b>Join us on Discord</b>
+      </a>
+    </button>
+
+    <button class="link-btn">
+      <a href="https://color.thumby.us/code/"  style="color: white" target="_blank" alt="TinyCircuits MicroPython code editor">
+        <b>Code Editor</b>
+      </a>
+    </button>
+
+    <button class="link-btn">
+      <a href="https://color.thumby.us/code/arcade/"  style="color: white" target="_blank" alt="TinyCircuits MicroPython arcade">
+        <b>Games Arcade</b>
+      </a>
+    </button>
 
 </section>
 

@@ -23,8 +23,8 @@ markdown_extensions:
 
 # all the colors of light/dark mode
 theme:
-  logo: images/Thumby_Logo_Wte.png
-  favicon: images/favicon.png
+  logo: images/logo.svg
+  favicon: images/logo.svg
   font:
     text: Roboto
     code: Roboto Mono
@@ -70,7 +70,7 @@ extra:
   analytics:
     provider: google
     property: UA-118275183-3
-  homepage: https://thumby.us
+  homepage: https://color.thumby.us
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/TinyCircuits
