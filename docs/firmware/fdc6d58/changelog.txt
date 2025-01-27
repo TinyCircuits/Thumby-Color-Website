@@ -1,0 +1,1 @@
+Use a different function for running USB host mode task when engine_link module functions .available(), .read(), .read_into(), .send(), and .connected() are called.

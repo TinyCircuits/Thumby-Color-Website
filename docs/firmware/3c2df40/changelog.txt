@@ -1,0 +1,2 @@
+Fix default font baked into firmware after bitmap update
+Add engine_link.is_started()

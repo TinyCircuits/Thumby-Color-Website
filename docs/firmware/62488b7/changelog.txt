@@ -1,0 +1,1 @@
+Added support for bitmaps types 16-bits or less along with support for 16-bit ARGB formats like 1555 or 4444 for per-pixel transparency

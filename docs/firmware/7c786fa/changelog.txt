@@ -1,0 +1,2 @@
+Show used and total storage on settings screen
+Add low level drawing functions to the engine_draw module (clear, pixel, line, rect, circle, text, blit, and update)

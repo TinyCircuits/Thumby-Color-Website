@@ -1,0 +1,1 @@
+Fixed not being able to use indexed bitmaps for fonts

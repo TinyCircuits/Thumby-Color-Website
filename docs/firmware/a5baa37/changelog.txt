@@ -1,0 +1,3 @@
+Give all 2D nodes the ability to inherit position, opacity, scale, and rotation from their parents
+Add .inherit_position, .inherit_opacity, .inherit_scale, and .inherit_rotation to all 2D nodes to control if a node will inherit those attributes
+Add .get_parent() function to all nodes

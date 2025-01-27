@@ -1,0 +1,4 @@
+Added small delay to processor startup to help solve issue where some units did not startup every time
+Fixed issue where engine scratch space couldn't be used completely
+Fixed issue where device was not hard reset after a game ends
+Fixed issue where "__init_save_dir was already called error" happened after a soft reset

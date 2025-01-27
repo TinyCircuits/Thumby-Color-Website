@@ -1,0 +1,4 @@
+Fixed "__init_save_dir was never called" error
+Added some helpful engine API functions to help support legacy Thumby Games
+Switched engine.reset() to do a hard reset by default instead of soft (pass True to perform a soft reset)
+Fixed engine not returning correct exit code on hard reset for micropython_loop script to restart

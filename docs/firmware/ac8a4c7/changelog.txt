@@ -1,0 +1,3 @@
+Update engine_link docs for TX buffer sending size and on what happens if too much data is sent or received
+Return actual number of bytes sent when using engine_link.send()
+Update USB Host RX and TX buffer sizes to match the USB Device side

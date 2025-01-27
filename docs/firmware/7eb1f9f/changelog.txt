@@ -1,0 +1,8 @@
+Fix bitmaps with BI_RGB compression field being interpreted to contain RGB565 instead of RGB555 by default
+Add rumble to RB and LB button presses in launcher
+Play intro music/jingle on splash screen if not plugged into a computer
+Expose .amplitude on AudioChannel that is automatically set to last sample amplitude (before gain mixing)
+Expose .sample_rate and .duration on WaveSoundResource
+Slow down RTC I2C communication speed from 400kHz to 10kHz due to frequent errors and add specific startup routine to clear communication to the RTC IC
+Fixed default font not rendering correctly due to unset pixel stride
+Enabled MicroPython deflate module in firmware and on Unix + WebAssembly platforms

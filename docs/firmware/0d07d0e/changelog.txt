@@ -1,0 +1,5 @@
+Fixed newlines being sanitized in Text2DNode.text
+Make front indicator RGB LED represent battery level by changing from green to red as the battery dies
+Make front indicator RGB LED change to blue/cyan when charging
+Change engine_io.indicator(...) function to allow overriding default battery indication with custom color
+Remove launcher battery indictor
