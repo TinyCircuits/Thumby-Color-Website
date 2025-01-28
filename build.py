@@ -2,6 +2,8 @@ import os
 import shutil
 import time
 import pathlib
+import json
+from datetime import datetime
 
 
 # # Remove these if exists
@@ -89,7 +91,6 @@ shutil.copyfile("temp/engine/filesystem/main.py", "site/simulator/main.py")
 os.system("git clone https://github.com/TinyCircuits/TinyCircuits-Thumby-Code-Editor.git temp/ogthumby")
 shutil.copytree("temp/ogthumby/CoreThumbyFiles/lib", "site/simulator/lib")
 
-
 # Step 17: Create dir manifest files for "site/simulator/lib" and "site/simulator/system"
 def walk_directory(directory, file):
     for path in pathlib.Path(directory).rglob("*"):
@@ -106,3 +107,38 @@ lib_file_manifest.close()
 system_file_manifest = open("site/simulator/system/manifest.txt", "w")
 walk_directory("site/simulator/system", system_file_manifest)
 system_file_manifest.close()
+
+# Step 18: Build a .json of all the firmwares, their commit dates, and their changelogs
+firmwares = []
+
+commit_ids = os.listdir("docs/firmware")
+for commit_id in commit_ids:
+    os.system(f"(cd temp/engine && git checkout {commit_id})")
+    
+    commit_date = os.popen('cd temp/engine && git log -1 --format="%cd" --date=iso').read()
+    commit_date = commit_date.splitlines()
+    commit_date = commit_date[0]
+    commit_date = commit_date.split(' ')
+    commit_date = commit_date[0] + "_" + commit_date[1]
+
+    changelog_file = open("docs/firmware/" + commit_id + "/changelog.txt", "r")
+    firmwares.append({"date":commit_date, "path":"firmware/" + commit_id + "/firmware_" + commit_id + ".uf2", "changelog":changelog_file.read()})
+    changelog_file.close()
+
+    # Copy the system files from this commit
+    def ignore_games_folder(dir, files):
+        return [f for f in files if "Games" in f]
+
+    shutil.copytree("temp/engine/filesystem", f"site/firmware/{commit_id}/filesystem", ignore=ignore_games_folder)
+
+    # Create a manifest of all the system files for each version
+    system_file_manifest = open(f"site/firmware/{commit_id}/filesystem/manifest.txt", "w")
+    walk_directory(f"site/firmware/{commit_id}/filesystem", system_file_manifest)
+    system_file_manifest.close()
+
+# Sort the list of firmwares and their dates in reverse order (first entry will be most up to date)
+firmwares = sorted(firmwares, key=lambda x: datetime.strptime(x["date"], "%Y-%m-%d_%H:%M:%S"), reverse=True)
+
+firmware_json_file = open("site/firmware/versions.json", "w")
+firmware_json_file.write(json.dumps(firmwares))
+firmware_json_file.close()
