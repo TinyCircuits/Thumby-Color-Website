@@ -1,7 +1,7 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/firmware_7c786fa.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/7c786fa526bb63603c002f3585048c21c1ac28cf" target="_blank" alt="Firmware">**files**</a> (January 16, 2025 @ 2:52PM EST [commit 7c786fa])
+<a href="https://color.thumby.us/firmware/7c786fa/firmware_7c786fa.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/7c786fa526bb63603c002f3585048c21c1ac28cf" target="_blank" alt="Firmware">**files**</a> (January 16, 2025 @ 2:52PM EST [commit 7c786fa])
 
 * Show used and total storage on settings screen
 * Add low level drawing functions to the `engine_draw` module (`clear`, `pixel`, `line`, `rect`, `circle`, `text`, `blit`, and `update`)
@@ -11,13 +11,13 @@
 
 ??? Versions
 
-    <a href="https://color.thumby.us/firmware/firmware_c34cf79.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/c34cf79ff644c1bdaf042fe1d20954ab2aee1b58" target="_blank" alt="Firmware">**files**</a> (January 14, 2025 @ 3:20PM EST [commit c34cf79])
+    <a href="https://color.thumby.us/firmware/c34cf79/firmware_c34cf79.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/c34cf79ff644c1bdaf042fe1d20954ab2aee1b58" target="_blank" alt="Firmware">**files**</a> (January 14, 2025 @ 3:20PM EST [commit c34cf79])
 
     * Fix `Line2DNode` drawing bug
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_0d07d0e.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0d07d0e2656e47b5acac993bc0a76082133532f4" target="_blank" alt="Firmware">**files**</a> (January 2, 2025 @ 12:42PM EST [commit 0d07d0e])
+    <a href="https://color.thumby.us/firmware/0d07d0e/firmware_0d07d0e.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0d07d0e2656e47b5acac993bc0a76082133532f4" target="_blank" alt="Firmware">**files**</a> (January 2, 2025 @ 12:42PM EST [commit 0d07d0e])
 
     * Fixed newlines being sanitized in `Text2DNode.text`
     * Make front indicator RGB LED represent battery level by changing from green to red as the battery dies
@@ -27,7 +27,7 @@
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_419f556.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/419f5564c72fa220030a6865325b82688c88cfb7" target="_blank" alt="Firmware">**files**</a> (December 16, 2024 @ 4:47PM EDT [commit 419f556])
+    <a href="https://color.thumby.us/firmware/419f556/firmware_419f556.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/419f5564c72fa220030a6865325b82688c88cfb7" target="_blank" alt="Firmware">**files**</a> (December 16, 2024 @ 4:47PM EDT [commit 419f556])
 
     * Add volume and brightness settings to launcher settings page and add generated settings.txt file
     * Add most of the credits to the launcher credits page
@@ -37,7 +37,7 @@
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_7eb1f9f.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/7eb1f9f25248f202c9a2cb284b17998327b71da9" target="_blank" alt="Firmware">**files**</a> (November 19, 2024 @ 12:48PM EDT [commit 7eb1f9f])
+    <a href="https://color.thumby.us/firmware/7eb1f9f/firmware_7eb1f9f.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/7eb1f9f25248f202c9a2cb284b17998327b71da9" target="_blank" alt="Firmware">**files**</a> (November 19, 2024 @ 12:48PM EDT [commit 7eb1f9f])
 
     * Fix bitmaps with `BI_RGB` compression field being interpreted to contain RGB565 instead of RGB555 by default
     * Add rumble to RB and LB button presses in launcher
@@ -50,13 +50,13 @@
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_ebd3632.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/ebd363223c02b9df89ae6fbd7708d873a6ec1297" target="_blank" alt="Firmware">**files**</a> (October 22, 2024 @ 10:42AM EDT [commit ebd3632])
+    <a href="https://color.thumby.us/firmware/ebd3632/firmware_ebd3632.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/ebd363223c02b9df89ae6fbd7708d873a6ec1297" target="_blank" alt="Firmware">**files**</a> (October 22, 2024 @ 10:42AM EDT [commit ebd3632])
 
     * Fixed not being able to use indexed bitmaps for fonts
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_a5baa37.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/a5baa37a617091688d3fb5d343e383ec5dba37f3" target="_blank" alt="Firmware">**files**</a> (September 26, 2024 @ 4:48PM EDT [commit a5baa37])
+    <a href="https://color.thumby.us/firmware/a5baa37/firmware_a5baa37.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/a5baa37a617091688d3fb5d343e383ec5dba37f3" target="_blank" alt="Firmware">**files**</a> (September 26, 2024 @ 4:48PM EDT [commit a5baa37])
 
     * Give all 2D nodes the ability to inherit `position`, `opacity`, `scale`, and `rotation` from their parents
     * Add `.inherit_position`, `.inherit_opacity`, `.inherit_scale`, and `.inherit_rotation` to all 2D nodes to control if a node will inherit those attributes
@@ -66,13 +66,13 @@
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_9e01471.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/9e0147139790b176f5966f70ab5474a608469a97" target="_blank" alt="Firmware">**files**</a> (September 20, 2024 @ 1:20PM EDT [commit 9e01471])
+    <a href="https://color.thumby.us/firmware/9e01471/firmware_9e01471.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/9e0147139790b176f5966f70ab5474a608469a97" target="_blank" alt="Firmware">**files**</a> (September 20, 2024 @ 1:20PM EDT [commit 9e01471])
 
     * Fix skewing issue for 1-bit and 4-bit bitmaps with odd dimensions
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_ac8a4c7.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/ac8a4c7ca94835c3ff5eee78f0ba81a864f9d1a6" target="_blank" alt="Firmware">**files**</a> (September 18, 2024 @ 4:08PM EDT [commit ac8a4c7])
+    <a href="https://color.thumby.us/firmware/ac8a4c7/firmware_ac8a4c7.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/ac8a4c7ca94835c3ff5eee78f0ba81a864f9d1a6" target="_blank" alt="Firmware">**files**</a> (September 18, 2024 @ 4:08PM EDT [commit ac8a4c7])
 
     * Update `engine_link` docs for TX buffer sending size and on what happens if too much data is sent or received
     * Return actual number of bytes sent when using `engine_link.send()`
@@ -80,51 +80,51 @@
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_b8b013b.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/b8b013b1f8145663a0e25fc43320437b374576c6" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 3:45PM EDT [commit b8b013b])
+    <a href="https://color.thumby.us/firmware/b8b013b/firmware_b8b013b.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/b8b013b1f8145663a0e25fc43320437b374576c6" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 3:45PM EDT [commit b8b013b])
 
     * Adjust `engine_link` connection times to make them more reliable
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_fdc6d58.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/fdc6d581f5e1799bfbf8289654b3bdec6bf30566" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 2:29PM EDT [commit fdc6d58])
+    <a href="https://color.thumby.us/firmware/fdc6d58/firmware_fdc6d58.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/fdc6d581f5e1799bfbf8289654b3bdec6bf30566" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 2:29PM EDT [commit fdc6d58])
 
     * Use a different function for running USB host mode task when `engine_link` module functions `.available()`, `.read()`, `.read_into()`, `.send()`, and `.connected()` are called.
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_34e6df0.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/34e6df0a7f109869c060904966930c448992f455" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 2:01PM EDT [commit 34e6df0])
+    <a href="https://color.thumby.us/firmware/34e6df0/firmware_34e6df0.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/34e6df0a7f109869c060904966930c448992f455" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 2:01PM EDT [commit 34e6df0])
 
     * Run USB Host task for `engine_link` module functions `.available()`, `.read()`, `.read_into()`, and `.send()`
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_3c2df40.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/3c2df40bc66eb270cbe27f15c0f575aecf390aba" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 12:57PM EDT [commit 3c2df40])
+    <a href="https://color.thumby.us/firmware/3c2df40/firmware_3c2df40.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/3c2df40bc66eb270cbe27f15c0f575aecf390aba" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 12:57PM EDT [commit 3c2df40])
 
     * Fix default font baked into firmware after bitmap update
     * Add `engine_link.is_started()`
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_0aa571a.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0aa571a516e9034d1efdafab6b9069882ac199f3" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 11:02AM EDT [commit 0aa571a])
+    <a href="https://color.thumby.us/firmware/0aa571a/firmware_0aa571a.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/0aa571a516e9034d1efdafab6b9069882ac199f3" target="_blank" alt="Firmware">**files**</a> (September 13, 2024 @ 11:02AM EDT [commit 0aa571a])
 
     * Added `engine_link.is_host()` function
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_62488b7.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/62488b74f1fa745afcd1826e4182bd63dd82b956" target="_blank" alt="Firmware">**files**</a> (September 10, 2024 @ 12:13PM EDT [commit 62488b7])
+    <a href="https://color.thumby.us/firmware/62488b7/firmware_62488b7.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/62488b74f1fa745afcd1826e4182bd63dd82b956" target="_blank" alt="Firmware">**files**</a> (September 10, 2024 @ 12:13PM EDT [commit 62488b7])
 
     * Added support for bitmaps types 16-bits or less along with support for 16-bit ARGB formats like 1555 or 4444 for per-pixel transparency
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_af6804d.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/af6804d7cbaf61908593fe342213b04218034e13" target="_blank" alt="Firmware">**files**</a> (September 4, 2024 @ 11:15AM EDT [commit af6804d])
+    <a href="https://color.thumby.us/firmware/af6804d/firmware_af6804d.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/af6804d7cbaf61908593fe342213b04218034e13" target="_blank" alt="Firmware">**files**</a> (September 4, 2024 @ 11:15AM EDT [commit af6804d])
 
     * Moved to newer pico-sdk and MicroPython (using in progress PR for RP2350 support)
     * Added `engine_link` module
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_2aa8e3d.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/2aa8e3dd9eb6ded5479c19bf0fb504f0ecfba3b5" target="_blank" alt="Firmware">**files**</a> (August 27, 2024 @ 2:10PM EDT [commit 2aa8e3d])
+    <a href="https://color.thumby.us/firmware/2aa8e3d/firmware_2aa8e3d.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/2aa8e3dd9eb6ded5479c19bf0fb504f0ecfba3b5" target="_blank" alt="Firmware">**files**</a> (August 27, 2024 @ 2:10PM EDT [commit 2aa8e3d])
 
     * Fixed "__init_save_dir was never called" error
     * Added some helpful `engine` API functions to help support legacy Thumby Games
@@ -133,7 +133,7 @@
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_4d64d5b.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/archive/4d64d5b3fe43fa09e07447da160eedb603ae3c8c.zip" target="_blank" alt="Firmware">**files**</a> (August 26, 2024 @ 2:22PM EDT [commit 4d64d5b])
+    <a href="https://color.thumby.us/firmware/4d64d5b/firmware_4d64d5b.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/archive/4d64d5b3fe43fa09e07447da160eedb603ae3c8c.zip" target="_blank" alt="Firmware">**files**</a> (August 26, 2024 @ 2:22PM EDT [commit 4d64d5b])
 
     * Added small delay to processor startup to help solve issue where some units did not startup every time
     * Fixed issue where engine scratch space couldn't be used completely
@@ -142,7 +142,7 @@
 
     ---
 
-    <a href="https://color.thumby.us/firmware/firmware_917b0b0.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/archive/917b0b038294011df253e861f74b6f2657776a70.zip" target="_blank" alt="Firmware">**files**</a> (August 23, 2024 @ 12:20PM EDT [commit 917b0b0])
+    <a href="https://color.thumby.us/firmware/917b0b0/firmware_917b0b0.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/archive/917b0b038294011df253e861f74b6f2657776a70.zip" target="_blank" alt="Firmware">**files**</a> (August 23, 2024 @ 12:20PM EDT [commit 917b0b0])
 
     * Initial public update for small bugfixes
 
