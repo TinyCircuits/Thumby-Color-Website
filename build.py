@@ -122,7 +122,7 @@ for commit_id in commit_ids:
     commit_date = commit_date[0] + "_" + commit_date[1]
 
     changelog_file = open("docs/firmware/" + commit_id + "/changelog.txt", "r")
-    firmwares.append({"date":commit_date, "path":"firmware/" + commit_id + "/firmware_" + commit_id + ".uf2", "changelog":changelog_file.read()})
+    firmwares.append({"date":commit_date, "commit_id":commit_id, "changelog":changelog_file.read()})
     changelog_file.close()
 
     # Copy the system files from this commit

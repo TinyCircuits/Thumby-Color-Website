@@ -1,0 +1,1 @@
+Adjust launcher to find `manifext.txt` files as well as `manifest.ini` (`.ini` is now legacy, do not use anymore!)
