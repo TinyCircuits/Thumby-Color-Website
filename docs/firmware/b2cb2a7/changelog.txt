@@ -1,0 +1,1 @@
+Fixed audio and battery indicator LED randomly stopping by working around SDK repeating timer bug

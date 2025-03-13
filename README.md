@@ -4,6 +4,17 @@ This website holds all of the documentation on the MicroPython API, and the Ardu
 
 ---
 
+# Custom Build instructions and adding firmware releases
+
+1. Build the firmware for Thumby Color by following the steps in https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine
+2. In the MicroPython tree, copy `ports/rp2/build-THUMBY_COLOR/firmware_xxxxxx.uf2` to this repo at `docs/firmware/xxxxxx/firmware_xxxxxx.uf2`
+3. Add a `changelog.txt` at `docs/firmware/xxxxxx/changelog.txt`
+4. Build the website with the custom script that consolidates files, data, and runs build scripts from multiple different locations (code editor, core files, etc.): `python3 build.py` (delete `site` and `temp` folders before running again)
+5. Upload all folders and files in `site` to server and deploy (make sure to delete files on server first, except .htaccess)
+
+
+---
+
 # Building the site locally
 
 Pre-requisites: You will need [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/), the Python package manager, installed on your machine.
