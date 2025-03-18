@@ -1,0 +1,1 @@
+Change audio sample and battery monitor interrupts to use PWM timers for speed and reliability compared to SDK repeating or system timers
