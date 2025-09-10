@@ -1,15 +1,21 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/7c786fa/firmware_7c786fa.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/7c786fa526bb63603c002f3585048c21c1ac28cf" target="_blank" alt="Firmware">**files**</a> (January 16, 2025 @ 2:52PM EST [commit 7c786fa])
+<a href="http://127.0.0.1:8000/firmware/6963a16/firmware_6963a16.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/6963a163102238e092d5c95ca1f3dd579acc2915" target="_blank" alt="Firmware">**files**</a> (September 9, 2025 @ 2:15PM EST [commit 6963a16])
 
-* Show used and total storage on settings screen
-* Add low level drawing functions to the `engine_draw` module (`clear`, `pixel`, `line`, `rect`, `circle`, `text`, `blit`, and `update`)
-
+* Sept. 18 build revert and fix launcher files
+* Removed broken property inheritance
 
 ### Old Firmware
 
 ??? Versions
+
+    <a href="https://color.thumby.us/firmware/7c786fa/firmware_7c786fa.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/7c786fa526bb63603c002f3585048c21c1ac28cf" target="_blank" alt="Firmware">**files**</a> (January 16, 2025 @ 2:52PM EST [commit 7c786fa])
+
+    * Show used and total storage on settings screen
+    * Add low level drawing functions to the `engine_draw` module (`clear`, `pixel`, `line`, `rect`, `circle`, `text`, `blit`, and `update`)
+
+    ---
 
     <a href="https://color.thumby.us/firmware/c34cf79/firmware_c34cf79.uf2" target="_blank" alt="Firmware">**Download MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/c34cf79ff644c1bdaf042fe1d20954ab2aee1b58" target="_blank" alt="Firmware">**files**</a> (January 14, 2025 @ 3:20PM EST [commit c34cf79])
 
@@ -138,7 +144,7 @@
     * Added small delay to processor startup to help solve issue where some units did not startup every time
     * Fixed issue where engine scratch space couldn't be used completely
     * Fixed issue where device was not hard reset after a game ends
-    * Fixed issue where "__init_save_dir was already called error" happened after a soft reset 
+    * Fixed issue where "__init_save_dir was already called error" happened after a soft reset
 
     ---
 
