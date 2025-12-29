@@ -1,0 +1,3 @@
+Added runtime tracer for hard faults
+Re-enabled mesh resources
+Patched firmware reporting invalid build date

@@ -127,12 +127,9 @@ section {
 
 
 ## **Thumby Color Diagram**
-<center>
+
 ![](color/thumby_color_drawing.svg)
-</center>
 
 
 ## **Thumby Color Dev Board Diagram**
-<center>
 ![](color/thumby_color_dev_drawing.svg)
-</center>

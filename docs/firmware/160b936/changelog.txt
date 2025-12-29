@@ -1,0 +1,1 @@
+Revert inheritance architecture to pre-October-2024 state

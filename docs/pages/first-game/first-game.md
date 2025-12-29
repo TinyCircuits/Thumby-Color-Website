@@ -3,19 +3,13 @@ First things first, make sure your **Thumby Color** or **Thumby Color Dev Board*
 
 Inside **Thonny**, left-click the **< untitled >** pane and then press **ctrl-s** and choose **Raspberry Pi Pico**:
 
-<center>
 ![](images/1_save.png)
-</center>
 
 Next, navigate into the **Games** folder by double left-clicking it, and then right-click anywhere and choose **New Directory...**
-<center>
 ![](images/2_create_game_folder.png)
-</center>
 
 Choose any name for your game folder and then navigate into it. Name the file you're saving as **main.py** and press **OK**.
-<center>
 ![](images/3_finish_saving.png)
-</center>
 
 Now anytime you press **ctrl-s**, the file will be saved to the device.
 
@@ -39,6 +33,5 @@ camera = CameraNode()
 
 engine.start()
 ```
-<center>
+
 ![](images/4_first_game.png)
-</center>
