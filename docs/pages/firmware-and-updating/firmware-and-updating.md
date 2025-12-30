@@ -1,15 +1,20 @@
 ## Latest Firmware
 
 
-<a href="https://color.thumby.us/firmware/9bb53f4/firmware_9bb53f4.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/9bb53f4dd02781fc25be23ff9ccb7a77d051a35a" target="_blank" alt="Firmware">**files**</a> (December 29, 2025 @ 11:38AM EST [commit 9bb53f4])
+<a href="https://color.thumby.us/firmware/99f9813/firmware_99f9813.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/99f9813cc46b7c7d735cb27dbcd1fca3724a09fc" target="_blank" alt="Firmware">**files**</a> (December 30, 2025 @ 3:48PM EST [commit 99f9813])
 
-* Added runtime tracer for hard faults
-* Re-enabled mesh resources
-* Patched firmware reporting invalid build date
+* Fix audio (again,) reset FPS limit and CPU frequency between reloads / restarts
+* ~~ FILESYSTEM UPDATE RECOMMENDED ~~
 
 ### Old Firmware
 
 ??? Versions
+
+    <a href="https://color.thumby.us/firmware/9bb53f4/firmware_9bb53f4.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/9bb53f4dd02781fc25be23ff9ccb7a77d051a35a" target="_blank" alt="Firmware">**files**</a> (December 29, 2025 @ 11:38AM EST [commit 9bb53f4])
+
+    * Added runtime tracer for hard faults
+    * Re-enabled mesh resources
+    * Patched firmware reporting invalid build date
 
     <a href="https://color.thumby.us/firmware/8485ff1/firmware_8485ff1.uf2" target="_blank" alt="Firmware">**Download Latest MicroPython/Engine Firmware**</a> or the system <a href="https://github.com/TinyCircuits/TinyCircuits-Tiny-Game-Engine/tree/8485ff10c903ec392c4d5a755afaccfbbd781a9b" target="_blank" alt="Firmware">**files**</a> (October 10, 2025 @ 12:38PM EST [commit 8485ff1])
 
